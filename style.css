@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.avif);
+    background-position: center;
+    background-size: cover; 
+    height: 109vh;
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+.logo{
+    color: rgb(255, 114, 0);
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    padding-top: 10px;
+}
+
+.content{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: Arial;
+    padding-top: 150px;
+    padding-left: 200px;
+}
+.content1{
+    display: inline-block;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: Arial;
+        padding-top: 5px;
+        padding-left: 200px;
+}
+.content2{
+    display: inline-block;
+    color: rgb(255 255, 255);
+    font-size: 30px;
+    font-family: Arial;
+    padding-top: 60px;
+    padding-left: 200px;
+}
+.content3{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Arial;
+    padding-top: 5px;
+    padding-left: 200px;
+}
+}
+.form{
+    width: 450px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(187, 176, 176, 0.8)50%, rgba(187, 176, 176, 0.8)50%);
+    position: absolute;
+    top: 150px;
+    left: 1250px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h1{
+width: 220px;
+font-family: Impact;
+text-align: center;
+color: rgb(43, 40, 40);
+font-size: 22px;
+background-color: transparent;
+border-radius: 10px;
+margin: 2px;
+padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top:  none;
+    border-right: none;
+    border-left: none;
+    color: #5a5757;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+.form input:focus{
+    outline: none;
+
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+#dot-1:checked ~ .category label .one
+#dot-1:checked ~ .category label .one{
+    border-color: #d9d9d9;
+    background: #9b59b6;
+}
